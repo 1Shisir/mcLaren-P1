@@ -1,12 +1,49 @@
-# React + Vite
+# McLaren P1 React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React + Vite single-page site showcasing the McLaren P1 hypercar, built with modern UI and animation features.
 
-Currently, two official plugins are available:
+## What this project includes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19 with Vite for fast development and production builds
+- `react-router-dom` for page navigation between Overview, Inspiration, Design & Innovation, Performance, and Specification
+- `tailwindcss` for styling and responsive layout
+- `gsap` for smooth page transition and entrance animations
+- background images and hero video assets used across the site
 
-## Expanding the ESLint configuration
+## Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `/` — Landing hero page
+- `/overview` — McLaren P1 overview and key facts
+- `/inspiration` — Inspiration story with background imagery
+- `/design-and-innovation` — Design page with hero video background
+- `/performance` — Performance page with hybrid powertrain details
+- `/specification` — Specification page with key P1 figures
+
+## Available scripts
+
+- `npm install` — install dependencies
+- `npm run dev` — run development server
+- `npm run build` — create production build
+- `npm run preview` — preview production build locally
+- `npm run lint` — run ESLint checks
+
+## Deployment readiness
+
+- The app builds successfully with `npm run build`
+- Dependency security audit was checked and fixed using `npm audit fix`
+- The project is ready for static hosting like Netlify, Vercel, or GitHub Pages
+
+## Notes
+
+- Current project uses Tailwind classes for layout and styling
+- GSAP page animation is used in the custom `PageAnimation` component
+- Navigation highlights active links in the navbar
+
+## Getting started
+
+1. Clone the repository
+2. Run `npm install`
+3. Start the dev server with `npm run dev`
+4. Open the provided local URL in your browser
+
+Enjoy the McLaren P1 experience!"
