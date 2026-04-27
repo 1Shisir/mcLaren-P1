@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  
+  height: 100vh;   /* Full viewport height */
+  width: 100vw;    /* Full viewport width */
+}
