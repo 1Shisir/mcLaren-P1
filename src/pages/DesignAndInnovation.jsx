@@ -17,7 +17,7 @@ const DesignAndInnovation = () => {
             <h1 className='fade-item text-5xl lg:text-6xl font-extrabold leading-tight text-white drop-shadow-2xl max-w-3xl'>A sculpted hypercar built around aerodynamic mastery and carbon-clad engineering.</h1>
           </div>
 
-          <div className='absolute top-48 left-10 grid gap-8 lg:grid-cols-[1fr,320px] items-start'>
+          {/* <div className='absolute top-48 left-10 grid gap-6 lg:grid-cols-[1fr,320px] items-start'>
             <div className='space-y-6 max-w-xl'>
               <p className='fade-item text-gray-100 text-lg lg:text-xl leading-9 tracking-wide drop-shadow-lg'>Form equals function in the P1. Its bodywork is shrink-wrapped tightly over the mechanical hard points, placing the cockpit at the centre and reducing frontal area while directing airflow into the roof snorkel and over active aerodynamic surfaces.</p>
               <p className='fade-item text-gray-100 text-lg lg:text-xl leading-9 tracking-wide drop-shadow-lg'>The lightweight carbon fibre MonoCell chassis and dihedral doors reflect McLaren’s focus on engineering purity, while hydraulic active aero adjusts the rear wing and front flaps to balance downforce and drag across different speeds.</p>
@@ -30,7 +30,7 @@ const DesignAndInnovation = () => {
                 <li>Driver-centered cockpit packaging</li>
               </ul>
             </div>
-          </div>
+          </div> */}
 
           <div className='absolute bottom-12 right-10 w-[40vw] min-w-[320px]'>
             <div className='fade-item rounded-[2rem] border border-white/10 bg-black/40 p-8 shadow-2xl backdrop-blur-xl text-gray-100'>

@@ -10,7 +10,11 @@ const Performance = () => {
         <div className='absolute inset-0 bg-black/20 -z-5'></div>
         <div className='relative z-10 h-full'>
           <div className='absolute top-12 left-8 max-w-xl space-y-6'>
-            <h2 className='fade-item text-5xl lg:text-6xl font-bold text-white drop-shadow-xl leading-tight'>Performance</h2>
+            <div className='fade-item inline-flex items-center gap-3'>
+              <div className='h-16 w-1 rounded-full bg-orange-400'></div>
+              <span className='text-sm uppercase tracking-[0.4em] text-orange-300'>Performance</span>
+            </div>
+            <h1 className='fade-item text-5xl lg:text-6xl font-extrabold leading-tight text-white drop-shadow-2xl'>Unrelenting hybrid power.</h1>
             <p className='fade-item text-gray-100 leading-8 text-base lg:text-lg tracking-wide drop-shadow-lg max-w-lg'>The McLaren P1’s hybrid powertrain pairs a 3.8-litre twin-turbo V8 with an electric motor and the IPAS system, delivering 903 PS and 900 Nm of torque. The electric boost adds sharper acceleration on demand while keeping the powertrain responsive and track-capable.</p>
             <p className='fade-item text-gray-100 leading-8 text-base lg:text-lg tracking-wide drop-shadow-lg max-w-lg'>Every element is tuned for both road and track use, with a hybrid system engineered to sustain the demands of high-speed driving while delivering the drive quality expected from a McLaren hypercar.</p>
           </div>
